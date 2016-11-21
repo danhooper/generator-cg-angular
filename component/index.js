@@ -38,8 +38,8 @@ ComponentGenerator.prototype.askFor = function askFor() {
 
 ComponentGenerator.prototype.files = function files() {
 
-    configName = 'componentComplexTemplates';
-    defaultDir = 'templates/complex';
+    var configName = 'componentComplexTemplates';
+    var defaultDir = 'templates/complex';
 
     this.htmlPath = path.join(this.dir,this.name + '.html').replace(/\\/g,'/');;
 
