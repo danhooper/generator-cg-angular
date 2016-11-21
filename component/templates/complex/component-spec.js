@@ -13,10 +13,10 @@ describe('<%= _.camelize(name) %>', function() {
     it('should ...', function() {
 
         /*
-        To test your directive, you need to create some html that would use your directive,
+        To test your component, you need to create some html that would use your component,
         send that through compile() then compare the results.
 
-        var element = compile('<div mydirective name="name">hi</div>')(scope);
+        var element = compile('<<%= name %>>hi</<%= name %>>')(scope);
         expect(element.text()).toBe('hello, world');
         */
 
